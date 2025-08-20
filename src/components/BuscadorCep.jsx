@@ -1,41 +1,38 @@
-
 // Imports
-
 import styles from "./BuscadorCep.module.css";
-
-// Bibliotecas
-
-import {FiSearch} from 'react-icons/fi';
-
+import { FiSearch } from "react-icons/fi";
 
 const BuscadorCep = () => {
-    return(
-        <>
-        <div className={styles.container}>
+  return (
+    <>
+
+      <section className={styles.container}>
         <h1 className={styles.title}>Buscador Cep</h1>
-
-        <div className={styles.containerInput}>
-            <input
-             type="text"
-             placeholder="Digite seu cep..."
-              />
-
-              <button className={styles.buttonSearch}>
-                <FiSearch size={25} color="#FFF"/>
-              </button>
-        </div>
+        <form className={styles.containerInput}>
+          <label htmlFor="cepInput" className="sr-only">
+            Digite seu CEP
+          </label>
+          <input
+            id="cepInput"
+            type="search"
+            placeholder="Digite seu cep..."
+          />
+          <button className={styles.buttonSearch}>
+            <FiSearch size={25} color="#FFF" />
+          </button>
+        </form>
         <main className={styles.main}>
-            <h2>Cep: 79003222</h2>
-
-            <span>Rua teste algum</span>
-            <span>Complemento: algum complemento</span>
-            <span>Vila Rosa</span>
-            <span>Campo Grande - MS</span>
-        </main>
-    </div>
-        </>
-    )
-    
-}
+          <h2>Cep: 79003222</h2>
+          <address>
+            <p>Rua teste algum</p>
+            <p>Complemento: algum complemento</p>
+            <p>Vila Rosa</p>
+            <p>Campo Grande - MS</p>
+          </address>
+          </main>
+      </section>
+    </>
+  );
+};
 
 export default BuscadorCep;
