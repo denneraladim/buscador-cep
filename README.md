@@ -26,6 +26,7 @@ Um Buscador desenvolvida com React Js. O design foi pensado mobile first e adapt
 
 1. Criado o Reset do navegador no arquivo index.css Global
 2. Criar o componente Buscador CEP
+3. Instalar a biblioteca de Icons
 
 
 
