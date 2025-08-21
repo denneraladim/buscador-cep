@@ -7,6 +7,34 @@
 
 Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first e totalmente responsivo. Permite consultar endereços a partir de um CEP utilizando a API do ViaCEP.
 
+## Documentação
+
+- [vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+
+
+## Instalação 
+
+1. Clone este repositório:
+   ```bash
+  git clone https://github.com/denneraladim/buscador-cep.git
+  
+  ```
+
+2. Entre na pasta do Projeto:
+   cd buscador-cep
+
+3. Crie o projeto com Vite, React e JavaScript (se ainda não tiver):
+
+   npm create vite@latest
+
+4. Instalação das Dependências:
+     npm install axios
+     npm install react-icons
+
+
 ## Funcionalidades
 
 1. Buscar CEP digitando no input.
@@ -26,10 +54,7 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
 ## Estrutura do Projeto
 
-## Estrutura do Projeto
-
-- **src/**  
-  Código-fonte principal do projeto.
+- **src/** -> Código-fonte principal do projeto.
   - **Assets** -> Contem o Print da imagem
   - **components/** → Componentes reutilizáveis.
   - **pages/** → Páginas da aplicação.
@@ -40,7 +65,6 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 - **README.md**  
   Documentação do projeto.
 
-
 ## Tecnologias Utilizadas
 
 - **`React`**  
@@ -48,7 +72,6 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 - **`JavaScript`** (ES6+)
 - **`Axios`**
 - **`React Icons`**
-
 
 ##  Etapas do Desenvolvimento
 
