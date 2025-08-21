@@ -26,22 +26,20 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
 ## Estrutura do Projeto
 
-buscador-cep/
-│
-├─ public/
-│
-├─ src/
-│ ├─ components/
-│ │ ├─ BuscadorCep.jsx
-│ │ └─ BuscadorCep.module.css
-│ ├─ services/
-│ │ └─ api.js
-│ ├─ App.jsx
-│ ├─ index.js
-│ └─ index.css
-│
-├─ package.json
-└─ README.md
+## Estrutura do Projeto
+
+- **src/**  
+  Código-fonte principal do projeto.
+  - **Assets** -> Contem o Print da imagem
+  - **components/** → Componentes reutilizáveis.
+  - **pages/** → Páginas da aplicação.
+  - **assets/** → Imagens, ícones e estilos.
+  - **App.js** → Componente principal.
+  - **index.js** → Ponto de entrada do React.
+- **package.json** -> Configurações e dependências do projeto.
+- **README.md**  
+  Documentação do projeto.
+
 
 ## Tecnologias Utilizadas
 
