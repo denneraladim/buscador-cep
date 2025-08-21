@@ -1,4 +1,4 @@
-import BuscadorCep from "./components/buscadorcep";
+import BuscadorCep from "./components/BuscadorCep";
 
 
 const App = () => (
