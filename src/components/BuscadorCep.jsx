@@ -27,8 +27,6 @@ const BuscadorCep = () => {
             alert("Erro ao buscar!")
             setInput("")
         }
-
-     // 01310930/json
     }
     return(
         <>
