@@ -2,6 +2,8 @@
 
 # Buscador de Cep
 
+![Print do Projeto](src\assets\BuscadorCep.png)
+
 
 Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first e totalmente responsivo. Permite consultar endereços a partir de um CEP utilizando a API do ViaCEP.
 
