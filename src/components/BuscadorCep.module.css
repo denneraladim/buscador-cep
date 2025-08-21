@@ -33,4 +33,56 @@
     border-radius: 8px;
 }
 
-.containerInput input{}
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #ccc;
+    opacity: 1;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 30px;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media(min-width: 760px){
+    .title{
+        font-size: 60px;
+    }
+    .main h2 {
+        font-size: 40px;
+    }
+}
+
