@@ -22,15 +22,14 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
    git clone https://github.com/denneraladim/buscador-cep.git
 
 
-2. Entre na pasta do Projeto:
-   ```bash
-   cd buscador-cep
+  
 
-3. Crie o projeto com Vite, React e JavaScript (se ainda não tiver):
+###  Crie o projeto com Vite, React e JavaScript (se ainda não tiver) e entra na pasta:
 
-   npm create vite@latest
+    npm create vite@latest
+    cd buscador-cep
 
-4. Instalação das Dependências:
+##  Instalação das Dependências:
      npm install axios
      npm install react-icons
 
