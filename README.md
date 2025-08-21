@@ -19,8 +19,7 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
 1. Clone este repositório:
    ```bash
-  git clone https://github.com/denneraladim/buscador-cep.git
-  
+  git clone https://github.com/denneraladim/buscador-cep.git  
   ```
 
 2. Entre na pasta do Projeto:
