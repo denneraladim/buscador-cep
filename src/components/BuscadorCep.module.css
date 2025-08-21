@@ -1,1 +1,26 @@
 
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#4a4a4a, #2e5eb8);
+
+}
+
+.title{
+    font-size: 50px;
+    color: #FFF;
+    animation: flipTitle 3s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+    
+}
