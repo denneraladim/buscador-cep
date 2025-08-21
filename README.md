@@ -19,9 +19,8 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
       git clone buscador-cep
 
-  
 
-###  Crie o projeto com Vite, React e JavaScript (se ainda não tiver) e entra na pasta:
+##  Crie o projeto com Vite, React e JavaScript (se ainda não tiver) e entra na pasta:
 
     npm create vite@latest
     cd buscador-cep
