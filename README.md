@@ -23,6 +23,7 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
 
 2. Entre na pasta do Projeto:
+   ```bash
    cd buscador-cep
 
 3. Crie o projeto com Vite, React e JavaScript (se ainda não tiver):
@@ -48,8 +49,7 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
 
 ## Como Executar
 
-1. Clone ou baixe este repositório.
-2. Abra o arquivo React em um navegador moderno (Chrome, Firefox, Edge, etc) pelo comando npm run dev.
+
 
 ## Estrutura do Projeto
 
@@ -61,8 +61,7 @@ Um Buscador de CEP desenvolvido com React.js, com design pensado em mobile first
   - **App.js** → Componente principal.
   - **index.js** → Ponto de entrada do React.
 - **package.json** -> Configurações e dependências do projeto.
-- **README.md**  
-  Documentação do projeto.
+- **README.md** -> Documentação do projeto.
 
 ## Tecnologias Utilizadas
 
