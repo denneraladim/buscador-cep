@@ -2,6 +2,8 @@
 
 # Buscador de Cep
 
+[Ver projeto online](https://buscador-cep-five.vercel.app/) (Abre em uma nova aba)
+
 ![Print do Projeto](./src/assets/BuscadorCep.png)
 
 
