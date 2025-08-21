@@ -9,6 +9,7 @@ import api from "../services/api";
 const BuscadorCep = () => {
 
     const [input, setInput] = useState('')
+    const [cep, setCep] = useState({})
 
     const handleSearch = async () => {
         if(input === ""){
@@ -19,10 +20,12 @@ const BuscadorCep = () => {
         try{
 
             const response = await api.get(`${input}/json`);
-            console.log(response)
+            setCep(response.data)
+            setInput("");
 
         }catch{
             alert("Erro ao buscar!")
+            setInput("")
         }
 
      // 01310930/json
@@ -44,14 +47,20 @@ const BuscadorCep = () => {
                 <FiSearch size={25} color="#FFF"/>
               </button>
         </div>
-        <main className={styles.main}>
-            <h2>Cep: 79003222</h2>
 
-            <span>Rua teste algum</span>
-            <span>Complemento: algum complemento</span>
-            <span>Vila Rosa</span>
-            <span>Campo Grande - MS</span>
+        {Object.keys(cep).length > 0 && (
+
+            <main className={styles.main}>
+                <h2>Cep: {cep.cep}</h2>
+
+                <span>{cep.logradouro}</span>
+                <span>Complemento: {cep.complemento}</span>
+                <span>{cep.bairro}</span>
+                <span>{cep.localidade} - {cep.uf}</span>
         </main>
+
+        )}
+        
     </section>
         </>
     )
