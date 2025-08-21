@@ -1,15 +1,17 @@
 
-
 // Imports
 
 import styles from "./BuscadorCep.module.css";
-
-// Bibliotecas
-
 import {FiSearch} from 'react-icons/fi';
-
+import { useState } from "react";
 
 const BuscadorCep = () => {
+
+    const [input, setInput] = useState('')
+
+    const handleSearch = () => {
+        alert("valor do input " + input)
+    }
     return(
         <>
         <section className={styles.container}>
@@ -19,9 +21,11 @@ const BuscadorCep = () => {
             <input
              type="text"
              placeholder="Digite seu cep..."
+             value={input}
+             onChange={(e)=> setInput(e.target.value)}
               />
 
-              <button className={styles.buttonSearch}>
+              <button className={styles.buttonSearch} onClick={handleSearch}>
                 <FiSearch size={25} color="#FFF"/>
               </button>
         </div>
