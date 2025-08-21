@@ -73,11 +73,18 @@
 }
 
 .main span{
-    margin-bottom: 16px;
     font-weight: bold;
 }
 
+.main span:not(:last-child){
+    margin-bottom: 16px;
+}
+
 @media(min-width: 760px){
+    .containerInput{
+        font-size: 24px;
+        width: 250px;
+    }
     .title{
         font-size: 60px;
     }
@@ -85,4 +92,5 @@
         font-size: 40px;
     }
 }
+
 
